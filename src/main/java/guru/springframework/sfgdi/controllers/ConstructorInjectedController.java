@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 /**
  * Created by jt on 12/26/19.
  */
+@Qualifier("constructorInjectedController")
 @Controller
 public class ConstructorInjectedController {
     private final GreetingService greetingService;
